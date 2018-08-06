@@ -1,4 +1,4 @@
-# Node errors
+# Node Errors
 
 ## 1. 
         $ npm install xxxxx
