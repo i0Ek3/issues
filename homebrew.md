@@ -1,7 +1,8 @@
 # Homebew Errors
 
-## 1. updating一直不动
+## 1. brew install xxxx或者brew update一直不动
 
-        $ updating brew...
+        $ brew install eventproxy
+        updating brew...
         
 resolve: `export HOMEBREW_NO_AUTO_UPDATE=true`
