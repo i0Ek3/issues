@@ -12,7 +12,8 @@ Collecting common resolves of develop(or tool) errors on macOs or Linux, always 
 
 ## Recommend
 
-- [rebound]()
+- [rebound](https://github.com/shobrook/rebound)
+- [maybe](https://github.com/p-e-w/maybe)
 
 
 ## Credit
