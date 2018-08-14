@@ -23,3 +23,5 @@
 
 ## Git Config
 
+- ggpush(git push origin master)卡住不动。
+
