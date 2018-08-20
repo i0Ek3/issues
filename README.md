@@ -5,6 +5,7 @@ Collecting common resolves of develop(or tool) errors on macOs or Linux, always 
 
 ## Contents
 
+- [android](https://github.com/i0Ek3/GotIssue/blob/master/android.md)
 - [node](https://github.com/i0Ek3/GotIssue/blob/master/node.md)
 - [homebrew](https://github.com/i0Ek3/GotIssue/blob/master/homebrew.md)
 - [github](https://github.com/i0Ek3/GotIssue/blob/master/github.md)
