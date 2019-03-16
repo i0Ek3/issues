@@ -47,6 +47,18 @@ $ git add . && git commit -m "Uoload files by git-lfs" && git lfs push origin ma
 // All done!
 ```
 
+## git clone 奇慢无比
+
+参考：[https://www.zhihu.com/question/27159393](https://www.zhihu.com/question/27159393)
+
+```Shell
+git config --global http.postBuffer 524288000
+git config --global http.https://github.com.proxy socks5://127.0.0.1:1086 // your socks5 port
+git config --global https.https://github.com.proxy socks5://127.0.0.1:1086
+git config --global http.https://github.com.proxy https://127.0.0.1:1087 // your https port
+git config --global https.https://github.com.proxy https://127.0.0.1:1087
+```
+
 ## Git Config
 
 - ggpush(git push origin master)卡住不动。
