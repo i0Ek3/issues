@@ -13,6 +13,7 @@ Collecting common resolves of develop(or tool) errors on macOs or Linux, always 
 - [cpp](https://github.com/i0Ek3/GotIssue/blob/master/cpp.md)
 - [ycm](https://github.com/i0Ek3/GotIssue/blob/master/ycm.md)
 - [docker](https://github.com/i0Ek3/GotIssue/blob/master/docker.md)
+- [ssh](https://github.com/i0Ek3/GotIssue/blob/master/ssh.md)
 
 
 
