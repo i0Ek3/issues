@@ -63,3 +63,13 @@ git config --global https.https://github.com.proxy https://127.0.0.1:1087
 
 - ggpush(git push origin master)卡住不动。
 
+
+## Clone Error
+
+```
+fatal: 无法访问 'https://gitub.com/0voice/from_coder_to_expert/'：error:14004438:SSL routines:CONNECT_CR_SRVR_HELLO:tlsv1 alert internal error
+```
+
+Bug reported: [https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/861137](https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/861137).
+
+ref [here](https://confluence.atlassian.com/stashkb/clone-error-error-14077438-ssl-routines-ssl23_get_server_hello-tlsv1-alert-internal-error-638091514.html).
