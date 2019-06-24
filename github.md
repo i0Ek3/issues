@@ -73,3 +73,12 @@ fatal: 无法访问 'https://gitub.com/0voice/from_coder_to_expert/'：error:140
 Bug reported: [https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/861137](https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/861137).
 
 ref [here](https://confluence.atlassian.com/stashkb/clone-error-error-14077438-ssl-routines-ssl23_get_server_hello-tlsv1-alert-internal-error-638091514.html).
+
+## Failed to connect to 127.0.0.1 port 1087: Connection refused
+
+```Shell
+git config --global -l // check git configuration
+```
+ref: [https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused](https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused)
+
+
