@@ -1,6 +1,6 @@
-# go config errors
+# Something about Go 
 
-## 1. go path
+## 1. Go env config
 
 ```Shell
 $ brew install go

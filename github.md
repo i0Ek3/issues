@@ -59,11 +59,6 @@ git config --global http.https://github.com.proxy https://127.0.0.1:1087 // your
 git config --global https.https://github.com.proxy https://127.0.0.1:1087
 ```
 
-## Git Config
-
-- ggpush(git push origin master)卡住不动。
-
-
 ## Clone Error
 
 ```
@@ -79,6 +74,6 @@ ref [here](https://confluence.atlassian.com/stashkb/clone-error-error-14077438-s
 ```Shell
 git config --global -l // check git configuration
 ```
-ref: [https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused](https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused)
+- ref: [https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused](https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused)
 
 
