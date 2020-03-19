@@ -1,4 +1,4 @@
-# Homebew Errors
+# Homebew 
 
 ## 1. brew install xxxx或者brew update一直不动
 

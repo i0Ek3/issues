@@ -1,4 +1,4 @@
-# Something about Go 
+# Go 
 
 ## 1. Go env config
 

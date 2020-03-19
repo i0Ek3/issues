@@ -9,7 +9,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 ```
 
-## 2 This command really fucking work!
+## 2. This command really fucking work well!
 
 ```
 pip3 uninstall tensorflow protobuf ; pip3 install tensorflow protobuf

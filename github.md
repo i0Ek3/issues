@@ -1,4 +1,4 @@
-# Github Related Errors
+# GitHub 
 
 ## GFM
 
@@ -17,7 +17,7 @@
 
 * [show link with space(like this)](#show-link-with-space-like-this)
 
-## Git Push Fails - fatal: The remote end hung up unexpectedly
+## 1. Git Push Fails - fatal: The remote end hung up unexpectedly
 
 Error just like this:
 
@@ -30,7 +30,7 @@ Resolution: git config --global http.postBuffer 157286400
 - ref3: [https://bioinfoexpert.com/2016/08/22/github-push-fails-due-to-large-files/](https://bioinfoexpert.com/2016/08/22/github-push-fails-due-to-large-files/)
 
 
-## GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+## 2. GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
 
 Opps~ But you needn't worry about it. You just need to open the url https://git-lfs.github.com then config git-lfs to your repo, something will be ok!
 
@@ -47,7 +47,7 @@ $ git add . && git commit -m "Uoload files by git-lfs" && git lfs push origin ma
 // All done!
 ```
 
-## git clone 奇慢无比
+## 3. git clone 奇慢无比
 
 参考：[https://www.zhihu.com/question/27159393](https://www.zhihu.com/question/27159393)
 
@@ -59,7 +59,7 @@ git config --global http.https://github.com.proxy https://127.0.0.1:1087 // your
 git config --global https.https://github.com.proxy https://127.0.0.1:1087
 ```
 
-## Clone Error
+## 4. Clone Error
 
 ```
 fatal: 无法访问 'https://gitub.com/0voice/from_coder_to_expert/'：error:14004438:SSL routines:CONNECT_CR_SRVR_HELLO:tlsv1 alert internal error
@@ -69,7 +69,7 @@ Bug reported: [https://bugs.launchpad.net/ubuntu/+source/openssl/+bug/861137](ht
 
 ref [here](https://confluence.atlassian.com/stashkb/clone-error-error-14077438-ssl-routines-ssl23_get_server_hello-tlsv1-alert-internal-error-638091514.html).
 
-## Failed to connect to 127.0.0.1 port 1087: Connection refused
+## 5. Failed to connect to 127.0.0.1 port 1087: Connection refused
 
 ```Shell
 git config --global -l // check git configuration

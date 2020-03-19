@@ -1,4 +1,4 @@
-# ycm errors
+# YCM 
 
 ## 1. compile with args --all have appeared problem need xbuild?
 
