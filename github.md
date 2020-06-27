@@ -76,4 +76,8 @@ git config --global -l // check git configuration
 ```
 - ref: [https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused](https://stackoverflow.com/questions/24543372/git-cannot-clone-or-push-failed-to-connect-connection-refused)
 
+## 6. fatal: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443
 
+```
+unset http/https proxy then try it again.
+```
