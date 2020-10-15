@@ -32,7 +32,7 @@ Resolution: git config --global http.postBuffer 157286400
 
 ## 2. GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
 
-Opps~ But you needn't worry about it. You just need to open the url https://git-lfs.github.com then config git-lfs to your repo, something will be ok!
+Opps~ But you needn't worry about it. You just need to open the url https://git-lfs.github.com then config git-lfs to your repo, something will be ok! And if you want to remove that huge file, please check [here](https://docs.github.com/en/free-pro-team@latest/github/managing-large-files/removing-files-from-a-repositorys-history) to operate how to do it. And [here](https://rtyley.github.io/bfg-repo-cleaner/), you may need **bfg** tool to delete huge git or someting.
 
 You will see this: `Uploading LFS objects: 100% (47/47), 1.9 GB | 0 B/s, done`. Good luck!
 
