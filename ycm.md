@@ -29,3 +29,6 @@ $ /usr/bin/python install.py
     - [https://github.com/Valloric/YouCompleteMe/issues/914](https://github.com/Valloric/YouCompleteMe/issues/914)
     - [https://github.com/Valloric/YouCompleteMe/issues/1707#issuecomment-222056711](https://github.com/Valloric/YouCompleteMe/issues/1707#issuecomment-222056711)
 
+## 3. NotImplementedError
+
+Modify your .vimrc: `let g:ycm_python_binary_path = 'python'`
