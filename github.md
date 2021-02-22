@@ -81,3 +81,10 @@ git config --global -l // check git configuration
 ```
 unset http/https proxy then try it again.
 ```
+
+## 7. cannot to connect raw.githubusercontent.com port:443
+
+```Shell
+export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+```
+
