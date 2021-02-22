@@ -14,6 +14,7 @@ When we install homebrew by ruby from github it will show you `curl: (7) Failed 
 Ok, find the install script then reinstall it or run this command below:
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://hellogithub.cn-bj.ufileos.com/file/brew_install.sh)"
+~~/usr/bin/ruby -e "$(curl -fsSL https://hellogithub.cn-bj.ufileos.com/file/brew_install.sh)"~~
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
