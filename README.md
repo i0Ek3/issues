@@ -18,6 +18,7 @@ GotIssue records some issues and solutions I met daily, which includes following
 ├── node.md
 ├── npm.md
 ├── python.md
+├── rust.md
 ├── ssh.md
 ├── tensorflow.md
 └── ycm.md
