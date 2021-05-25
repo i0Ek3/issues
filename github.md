@@ -17,6 +17,14 @@
 
 * [show link with space(like this)](#show-link-with-space-like-this)
 
+## 0. GitHub Speed Up
+
+- [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+- [https://github.com.cnpmjs.org/](https://github.com.cnpmjs.org/)
+- [https://hub.fastgit.org](https://hub.fastgit.org)
+- [http://toolwa.com/github/](http://toolwa.com/github/)
+- ./tool/GitHub_Speed_Up.crx
+
 ## 1. Git Push Fails - fatal: The remote end hung up unexpectedly
 
 Error just like this:

@@ -21,6 +21,7 @@ GotIssue records some issues and solutions I met daily, which includes following
 ├── rust.md
 ├── ssh.md
 ├── tensorflow.md
+├── wintogo.md
 └── ycm.md
 ```
 
