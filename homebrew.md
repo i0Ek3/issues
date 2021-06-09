@@ -17,3 +17,6 @@ Ok, find the install script then reinstall it or run this command below:
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
+## 3. `Error: Failure while executing;` while install package
+
+Reinstall homebrew by command: `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`. Also you can run `brew doctor`.
