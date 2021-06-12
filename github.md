@@ -23,6 +23,7 @@
 - [https://github.com.cnpmjs.org/](https://github.com.cnpmjs.org/)
 - [https://hub.fastgit.org](https://hub.fastgit.org)
 - [http://toolwa.com/github/](http://toolwa.com/github/)
+- [https://www.frankfeekr.cn/2021/03/28/github-speed-up/](https://www.frankfeekr.cn/2021/03/28/github-speed-up/)
 - ./tool/GitHub_Speed_Up.crx
 
 ## 1. Git Push Fails - fatal: The remote end hung up unexpectedly
