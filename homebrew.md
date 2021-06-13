@@ -19,4 +19,4 @@ Ok, find the install script then reinstall it or run this command below:
 
 ## 3. `Error: Failure while executing;` while install package
 
-Reinstall homebrew by command: `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`. Also you can run `brew doctor`.
+Reinstall homebrew by command: `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`, and disable tsinghua Source.
