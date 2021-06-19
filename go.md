@@ -17,3 +17,5 @@ ref: [http://totzyuta.github.io/blog/2015/06/21/installing-go-by-homebrew-on-mac
 ## 3. module declares its path as: xxx, but was required as: github.com/user/xxx
 
 Use `export GO111MODULE=on` mode in go mod, use `export GO111MODULE=off` mode in gopath.
+
+Actually, we just need to excute command: `go mod init github.com/username/prj_name`. 
