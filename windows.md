@@ -2,8 +2,6 @@
 
 ## 1. How to fix "Computer does not meet the Minimum Requirements"?
 
-Please check these links:
-	
-- https://appuals.com/computer-minimum-requirements-graphics/
-- https://www.minitool.com/news/computer-doesnt-meet-minimum-requirements.html
-- https://thegeekpage.com/fix-this-computer-doesnt-meet-the-minimum-requirements-problem-in-intel-hd-graphics/
+Please check [here](https://fossbytes.com/solve-tpm-2-0-error-installing-windows-11-fixed/).
+
+Key: W269N-WFGWX-YVC9B-4J6C9-T83GX
