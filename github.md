@@ -97,3 +97,6 @@ unset http/https proxy then try it again.
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
+## 8. Permission denied (publickey). fatal: Could not read from remote repository
+
+- https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey

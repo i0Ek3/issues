@@ -102,3 +102,6 @@ UsePAM yes
 AllowUsers xxx
 ```
 
+## 2. ssh: connect to host IPv6 port 22: Operation timed out
+
+
