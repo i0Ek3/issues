@@ -1,15 +1,8 @@
 # Go 
 
-## 1. Go env config
+## ~~1. Go env config~~
 
-```Shell
-$ brew install go
-$ export GOROOT=/usr/local/opt/go/libexec // go installation path
-$ export GOPATH=$HOME/go // for unix system
-$ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-```
-
-ref: [http://totzyuta.github.io/blog/2015/06/21/installing-go-by-homebrew-on-mac-os-x/](http://totzyuta.github.io/blog/2015/06/21/installing-go-by-homebrew-on-mac-os-x/)
+**Check 4**.
 
 
 ## 2. How to import the package from different branch of GitHub project?
@@ -22,8 +15,13 @@ Use `export GO111MODULE=on` mode in go mod, use `export GO111MODULE=off` mode in
 
 Actually, we just need to excute command: `go mod init github.com/username/prj_name` and then run command `go get github.com/username/prj_name` in the root of this project. 
 
+## 4. warning: GOPATH set to GOROOT (/usr/local/go) has no effect
 
-## Ref
+```Shell
+$ brew install go
+$ mkdir -p ~/.go ; cd ~/.go ; mkdir src bin pkg
+$ export GOPATH=$HOME/.go
+$ export PATH=$PATH:/usr/local/go/bin
+```
 
-- [https://mp.weixin.qq.com/s/jpp7vs3Fdg4m15P1SHt1yA](https://mp.weixin.qq.com/s/jpp7vs3Fdg4m15P1SHt1yA)
-- [https://mp.weixin.qq.com/s/6gJkSyGAFR0v6kow2uVklA](https://mp.weixin.qq.com/s/6gJkSyGAFR0v6kow2uVklA)
+Ref: [https://mp.weixin.qq.com/s/jq8hmovN7YD90dCBOToKuQ](https://mp.weixin.qq.com/s/jq8hmovN7YD90dCBOToKuQ)
