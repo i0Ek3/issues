@@ -1,4 +1,4 @@
-# GotIssue
+# Issues
 
 > We got issues, then we fix it!
 

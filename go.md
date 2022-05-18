@@ -25,3 +25,7 @@ $ export PATH=$PATH:/usr/local/go/bin
 ```
 
 Ref: [https://mp.weixin.qq.com/s/jq8hmovN7YD90dCBOToKuQ](https://mp.weixin.qq.com/s/jq8hmovN7YD90dCBOToKuQ)
+
+## 5. //go:linkname must refer to declared function or variable
+
+`go get -u golang.org/x/sys` can fix this issue.
