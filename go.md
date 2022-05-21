@@ -2,7 +2,7 @@
 
 ## ~~1. Go env config~~
 
-**Check 4**.
+**Check part 4**.
 
 
 ## 2. How to import the package from different branch of GitHub project?

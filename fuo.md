@@ -1,5 +1,8 @@
 # FeelUOwn 
 
-## 1. mac 下安装 feeluown 存在无法找到 libmpv 问题，尽管执行了 `brew install mpv` 也还是不行
+## 1. cannot find libmpv on mac
 
-可通过执行 `brew link --overwrite mpv` 解决。
+````shell
+$ brew link --overwrite mpv
+$ brew install mpv
+````

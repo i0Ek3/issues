@@ -100,3 +100,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 ## 8. Permission denied (publickey). fatal: Could not read from remote repository
 
 - https://stackoverflow.com/questions/12940626/github-error-message-permission-denied-publickey
+
+## 9. How to remove a commit on GitHub
+
+Check this [post](https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github).

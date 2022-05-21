@@ -4,10 +4,9 @@
 
 Change the source to tuna.tsinghua:
 
-```
-pip install pip -U
-pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-
+```Shell
+$ pip install pip -U
+$ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## 2. Building lxml on macOS

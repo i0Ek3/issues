@@ -2,8 +2,8 @@
 
 ## 1. brew install xxxx或者brew update一直不动
 
-```
-export HOMEBREW_NO_AUTO_UPDATE=true
+```shell
+$ export HOMEBREW_NO_AUTO_UPDATE=true
 ```
 or change the source of homebrew.
 
@@ -13,8 +13,8 @@ When we install homebrew by ruby from github it will show you `curl: (7) Failed 
 
 Ok, find the install script then reinstall it or run this command below:
 
-```
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```shell
+$ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
 ## 3. `Error: Failure while executing;` while install package
