@@ -104,3 +104,7 @@ export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_pr
 ## 9. How to remove a commit on GitHub
 
 Check this [post](https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github).
+
+## 10. fatal: Need to specify how to reconcile divergent branches
+
+`$ git pull --rebase`
