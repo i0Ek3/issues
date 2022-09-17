@@ -17,3 +17,7 @@ Remove the boot args `-no_compat_check` in Config.plist.
 2022-01-07 18:59:24.415173+0800 0x75       Default     0x0                  0      0    kernel: (AppleACPIPlatform) AppleACPIPlatformPower Wake reason: RTC (Alarm)
 2022-01-07 18:59:41.533748+0800 0x64bff    Default     0x0                  0      0    kernel: (AppleTopCaseHIDEventDriver) [HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01)
 ```
+
+## 3. Command cannot output anything
+
+> $ export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin
