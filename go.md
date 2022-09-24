@@ -29,3 +29,7 @@ Ref: [https://mp.weixin.qq.com/s/jq8hmovN7YD90dCBOToKuQ](https://mp.weixin.qq.co
 ## 5. //go:linkname must refer to declared function or variable
 
 `go get -u golang.org/x/sys` can fix this issue.
+
+## 6. run command `go run test.go` in iTerm2 stuck in there
+
+Try to clean go cache with command `go clean` and then try it again.
