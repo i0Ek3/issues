@@ -1,6 +1,6 @@
 # SSH
 
-### 1. ssh username@ip 无法连接虚拟机，并提示密码错误
+## 1. ssh username@ip 无法连接虚拟机，并提示密码错误
 
 一个是因为端口的问题，通过 `sudo vim /etc/ssh/sshd_config` 修改 PORT 参数。
 
@@ -104,4 +104,8 @@ AllowUsers xxx
 
 ## 2. ssh: connect to host IPv6 port 22: Operation timed out
 
+N/A.
 
+## 3. WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!  
+
+Just remove the related lines in .ssh/known_hosts.

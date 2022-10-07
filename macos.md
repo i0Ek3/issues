@@ -21,3 +21,7 @@ Remove the boot args `-no_compat_check` in Config.plist.
 ## 3. Command cannot output anything
 
 > $ export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin
+
+## 4. NTFS drive mounted under the macOS, but you have no permission to operate it
+
+Use Tuxera application and reboot your system, and then click "Allow" in "Security & Privacy".
