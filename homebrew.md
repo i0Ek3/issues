@@ -20,3 +20,15 @@ $ /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homeb
 ## 3. `Error: Failure while executing;` while install package
 
 Reinstall homebrew by command: `/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"`, and disable tsinghua Source.
+
+## 4. No remote 'origin' in /opt/homebrew/Library/Taps/homebrew/xxx, skipping update!
+
+```Shell
+$ brew doctor
+
+$ git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-core
+$ git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-cask
+$ git config --global --add safe.directory /opt/homebrew/Library/Taps/homebrew/homebrew-services
+```
+
+Ref [here](https://www.cnblogs.com/Flat-White/p/16475993.html).
