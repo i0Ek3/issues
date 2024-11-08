@@ -25,3 +25,11 @@ Remove the boot args `-no_compat_check` in Config.plist.
 ## 4. NTFS drive mounted under the macOS, but you have no permission to operate it
 
 Use Tuxera application and reboot your system, and then click "Allow" in "Security & Privacy".
+
+## 5 Finder does not have permission to open (null)
+
+```
+codesign --remove-signature /Applications/xxx.app; codesign --force --deep --sign - /Applications/xxx.app
+```
+
+Ref [here](https://forums.macrumors.com/threads/finder-does-not-have-permission-to-open-null.2441374/).
